@@ -3,4 +3,4 @@ frutas = ["manzana", "platano", "naranaja"]
 
 for adj in adjentivo:
     for fru in frutas:
-        print(fru, "es", adj)
+        print("la", fru, "es", adj)
