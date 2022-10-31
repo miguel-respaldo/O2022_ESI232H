@@ -2,7 +2,7 @@ import csv
 import os
 
 # Nombre de los archivos para abrir
-ARCHIVO_DIRECTORIO="directorio_telefonico.csv"
+ARCHIVO_DIRECTORIO="directorio.csv"
 
 def mostrar():
     archivo = open(ARCHIVO_DIRECTORIO,"r")
