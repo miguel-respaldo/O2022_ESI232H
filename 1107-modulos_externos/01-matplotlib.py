@@ -6,3 +6,5 @@ ypoints = np.array([0, 250])
 
 plt.plot(xpoints, ypoints)
 plt.show()
+
+# !pip install matplotlib
