@@ -14,7 +14,9 @@ while True:
         print("No podemos capturar la imagen de la camara")
         break
 
-    canny = cv.Canny(imagen, 10, 1)
+    canny = cv.Canny(imagen, 50, 100)
+    cv.imshow ( "Camara", canny )
+
 
     # Al oprimir ESC salimos del programa
     if cv.waitKey(1) == 27:
